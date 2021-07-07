@@ -84,7 +84,9 @@ background-image: linear-gradient(10deg,#FF4081,#673AB7);
 .experiences{
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
+  margin-top: 50px;
 }
+
 .Exp_title h1{
   display:block;
   text-align:center; 
