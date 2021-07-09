@@ -120,7 +120,7 @@ background-image: linear-gradient(10deg,#FF4081,#673AB7);
 .left_box p{
   text-align: left;
   line-height: 2rem;
-  padding:30px;
+ 
 }
 .right_box{
   margin-left: 95px;
@@ -132,76 +132,9 @@ footer p{
   font-weight: 500;
   font-size: 15px;
   font-family: monospace;
-  padding: 20px 0px;
   margin-left: 20px;
 }
-@media only screen and (max-width:400px){
-  html{
-    width: 100%;
-  }
-  h1,h2,h3{
-    font-weight: 500;
-  }
-  p{
-    font-weight: 400;
-  }
-  .container{
-    padding: 25px;
-  }
-  .dis_info h1 {
-    font-size: 25px;
-  }
-  .dis_info h3{
-  font-size: 15px;
-  padding: 10px 0px;
-}
-.dis_info p{
-  color:#000000DE;
-  line-height:1.2rem;
-  letter-spacing: 1.5px;
-  font-size: 14px;
-}
-button {
-  padding: 8px 25px;
-  font-size: 10px;
-}
-.dis_img {
-  width: 45%;
-  margin-top: 50px;
-}
-.dis_img img{
-  
-  width: 80%;
-}
-.left_box {
-  width: 40%;
-  padding: 15px 5px;
-  text-align: center;
-  border-left: 4px solid red;
-}
-  .left_box h1 {
-    font-size: 15px;
-  }
-  .left_box h3{
-    font-size: 10px;
-    color: blueviolet;
-  }
-  .left_box p {
-    font-size: 10px;
-    line-height: 15px;
-    padding: 0;
-  }
-  .right_box{
-    margin-left: 10px;
-  }
-  footer p{
-    width: 400px;
-    text-align: center;
-    margin-left: 10px;
-    font-size: 8px;
-    
-  }
-}
+
  #x{
       position: fixed;
       background: black;
